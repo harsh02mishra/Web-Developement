@@ -1,0 +1,95 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: aqua;
+    height: 25px;
+    padding: 1em 0;
+}
+
+nav h2{
+    padding-left: 20px;
+    margin-top: 1px;
+    width: 100px;
+}
+
+.nav-bar{
+    margin-left: 50%;
+    
+}
+
+.nav-bar a{
+    padding-left: 30px;
+    font-weight:bold;
+    font-size: 19px;
+}
+
+/* -------------loginPage---------- */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-image: url("login_bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.login-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px;
+    margin: 0;
+    backdrop-filter: blur(10px);
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+form p{
+    font-size: 13px;
+}
+
+.remember{
+    font-size: 13px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 1x;
+}
+
+
+input{
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+}
+
+button{
+    display:flex;
+    background-color: aliceblue;
+    font-size: 20px;
+    border:none;
+    cursor: pointer;
+    padding:10px 20px;
+    border-radius: 5px;
+    align-self: center;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    background-color: rgb(200, 230, 255);
+    transform: scale(1.05)
+    
+}
